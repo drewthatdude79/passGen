@@ -11,16 +11,16 @@ function generator() {
 
     var rand = "random generated password";
 
-    // var hasUpperCase = confirm("includes upper case");
-    // var hasLowerCase = confirm("includes lower case");
-    // var hasNums = confirm("includes nums");
-    // var hasSyms = confirm("includes syms");
-    // var hasTotalLength = prompt("password to be 8 to 128 characters");
+    var hasUpperCase = confirm("includes upper case");
+    var hasLowerCase = confirm("includes lower case");
+    var hasNums = confirm("includes nums");
+    var hasSyms = confirm("includes syms");
+    var hasTotalLength = prompt("password to be 8 to 128 characters");
 
-    // alert("includes upper case: " + hasUpperCase);
-    // alert("includes lower case" + hasLowerCase);
-    // alert("includes nums" + hasNums);
-    // alert("includes syms" + hasSyms);
+    alert("includes upper case: " + hasUpperCase);
+    alert("includes lower case" + hasLowerCase);
+    alert("includes nums" + hasNums);
+    alert("includes syms" + hasSyms);
 
     var genPass = Math.floor(Math.random() * 10) + 1;
 
